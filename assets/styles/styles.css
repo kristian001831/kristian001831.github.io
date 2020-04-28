@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+		background-color: #00400d;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: #E3E3E3;
+		background: #3d3f3d;
 }
 
 .img-circle {
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #F33F12;
+		border-bottom: 5px solid #000000;
 }
 
 
@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 		margin-top: 10em;
-		border: 1px solid #eee;
-		background-color: white;
+		border: 1px solid #000000;
+		background-color: #fffbff;
 		padding-bottom: 1em;
 }
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h2 {
-		color: #646464;
+		color: #000000;
 		font-size: 3.8em;
 		padding-bottom: 1em;
 }
@@ -100,28 +100,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h5 {
-		color: #8A8A8B;
+		color: #fffbff;
 }
 
 #about p {
 		margin-top: 1em;
-		color: #646464;
+		color: #000000;
 		font-family: "roboto";
 		font-weight: 300;
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		color: #fffbff;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		border: 2px solid rgba(0, 0, 0, 0.91);
 		border-radius: 50px;
-		background: white;
+		background: #00400d;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: rgba(255, 103, 68, 0.91);
-		color: white;
+		background-color: rgba(37, 227, 61, 0.91);
+		color: #000000;
 }
 
 #about i {
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 .fa {
 	font-size: 1.2em;
 	padding: 0.1em 0.4em;
-	color: #8a8a8a;
+	color: #11631b;
 }
 
 .fa:hover {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: #3d3f3d;
 	padding: 6em 4em 5.6em;
 }
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-	color: rgb(255, 138, 89);
+	color: rgb(17, 99, 27);
 	font-size: 4em;
 }
 
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience-topics ul li {
 	list-style: none;
-	color: #bbd2ff;
+	color: #fffbff;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 }
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work h2 {
-	color: #FF6945;
+	color: #3d3f3d;
 	margin-bottom: .7em;
 }
 
@@ -209,11 +209,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #ff7654;
+	color: #3d3f3d;
 }
 
 .details i {
-	color: #ff7654;
+	color: #3d3f3d;
 	margin-right: 1em;
 }
 
@@ -226,14 +226,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details a, .details a:link, .details a:active{
-		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		color: rgba(61, 63, 61, 0.91);
+		border: 2px solid rgba(61, 63, 61, 0.91) !important;
 		background-color: #fff;
 }
 
 .details a:hover, .details a:focus {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-		background-color: rgba(255, 103, 68, 0.91) !important;
+		background-color: rgba(61, 63, 61, 0.91) !important;
 		color: #fff;
 }
 
@@ -243,11 +243,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #teaching h2 {
-	color: #595959;
+	color: #fffbff;
 }
 
 #teaching .tag-line {
-	color: #848282;
+	color: #fffbff;
 	font-size: 1.4em;
 }
 
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: rgba(0, 64, 13, 0.91);
 	padding: 6em 4em 5.6em;
 }
 
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-cta a:hover {
 	background: #fff;
-	color: rgba(255, 103, 68, 0.91);
+	color: rgba(61, 63, 61, 0.91);
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: rgba(17, 99, 27, 0.91);
 	border-radius: 50%;
 	color: #fff;
 	padding: .4em;
@@ -337,12 +337,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .profile-photo {
-	width: 2px;
-	height: 2px;
+	width: 200px;
+	height: 200px;
 	margin: 0 auto;
 	border-radius: 50%;
 	background-size: cover;
-	margin-top: -100px;
+	margin-top: -150px;
 	margin-bottom: 40px;
 
 }
