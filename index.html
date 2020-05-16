@@ -21,14 +21,36 @@
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 </head>
 
 <body>
 
 	<div class="wrapper">
-		
 
 		<section id="about">
+
+			<!--Nav bar-->
+			<div class="luxbar luxbar-static">
+				<input type="checkbox" id="luxbar-checkbox" class="luxbar-checkbox">
+				<div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+					<ul class="luxbar-navigation">
+						<li class="luxbar-header">
+							<a class="luxbar-brand" href="#">Main Page</a>
+							<label class="luxbar-hamburger luxbar-hamburger-doublespin"
+								   for="luxbar-checkbox"> <span></span> </label>
+						</li>
+						<li class="luxbar-item active"><a href="index.html">Home</a></li>
+						<li class="luxbar-item dropdown"><a href="#">Sites</a>
+							<ul>
+								<li class="luxbar-item" ><a href="#">CV (Under Construction)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<br><br><br>
 			<div class="row">
 				<div class="small-12 large-8 large-offset-2 columns text-center">
 					<div class="profile-photo" style="background-image: url(assets/images/profile.jpg);">
@@ -39,6 +61,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="small-12 column">
 					<div class="cta text-center">
@@ -95,8 +118,25 @@
 				<p class="text-center tag-line">Here are few of my projects.</p>
 			</div>
 
+			<div class="row work-row"> <!-- even, right-->
+				<div class="small-12 medium-6 columns">
+					<img src="assets/images/projectx.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>Project X (In Development)</h3>
+						<p class="platform">Unity 2D</p>
+						<p class="icons"><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>This is my first serious project, I do it in collaboration with an artist (Pascal), Project X is a 2D Fighting
+							Game that comes up in a idea to play Tekken with Donkey Kong characters, so it will be with some fresh ideas
+							from us and for iOS and Android devices mainly. If you are interested into it; then klick on the button and watch
+							our Dev Logs (until the realese we will upload one video per week).</p>
+						<a class="my-button" target="_blank" href="https://www.youtube.com/watch?v=6b3wWsbqwg8&list=PLGm6i-AF6y0CUEt5OIMxHdFyJIRgiTh_P">Dev Log Playlist on Youtube</a>
+					</div>
+				</div>
+			</div>
 
-			<div class="row work-row"> <!-- odd -->
+			<div class="row work-row"> <!-- odd, left -->
 				<div class="small-12 medium-6 medium-push-6 columns">
 					<img src="assets/images/projectSpaceLoner.png" alt="">
 				</div>
@@ -104,54 +144,57 @@
 					<div class="details details-ftm">
 						<h3>Spaceloner</h3>
 						<p class="platform">Unity 3D</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p class="icons"><i class="fi-monitor"></i></p>
 						<p>My first group project for a SAE assignment; a Portalgun like FPS puzzle game with a grappling gun as the main mechanic.</p>
+						<a class="my-button" target="_blank" href="https://www.youtube.com/watch?v=LWSSwqh1zbc">Visit Video</a>
 					</div>
 				</div>
 			</div>
 
-			<div class="row work-row"> <!-- odd -->
-				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/projectFakeWorld.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-pull-7 columns">
-					<div class="details details-ftm">
-						<h3>Fake World</h3>
-						<p class="platform">Unity 2D</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>This is my very first game in Unity, it is a 2D platformer with some unique puzzle elements; you cant trust anything like the name says:D.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row work-row"> <!-- odd -->
+			<div class="row work-row"> <!-- even, left -->
 				<div class="small-12 medium-6 columns">
-					<img src="assets/images/projectLightBulb.png" alt="">
+					<img src="assets/images/satellites.png" alt="">
 				</div>
 				<div class="small-12 medium-5 medium-offset-1 columns">
 					<div class="details details-ftm">
+						<h3>Satellite</h3>
+						<p class="platform">Unity 3D</p>
+						<p class="icons"><i class="fi-monitor"></i></p>
+						<p>A solo project that is specialed on mathematics and physics in C#, a Formative assignment for SAE, will also be realesed on iOS appstore.</p>
+						<a class="my-button" target="_blank" href="https://github.com/kristian001831/Satellite">Visit Git Repository</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row work-row"> <!-- odd, right -->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/projectLightBulb.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
 						<h3>Light Bulb Game (GGJ 20 Berlin)</h3>
 						<p class="platform">Unity 3D</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p class="icons"><i class="fi-monitor"></i></p>
 						<p>This was a group proect of me, 2 other programmers, one Game Artist and one Music Artist for the Global Game Jam 2020 in Berlin at the SAE Institute, this game is about a lightbulb and you target is to change the bulb out.</p>
 						<a class="my-button" target="_blank" href="https://globalgamejam.org/2020/games/lightbulb-thingy-2">Visit Website</a>
 					</div>
 				</div>
 			</div>
 
-			<div class="row work-row"> <!-- even -->
+			<div class="row work-row"> <!-- even, left-->
 				<div class="small-12 medium-6 columns">
-					<img src="assets/images/" alt="">
+					<img src="assets/images/projectFakeWorld.png" alt="">
 				</div>
 				<div class="small-12 medium-5 medium-offset-1 columns">
 					<div class="details details-ftm">
-						<h3>Satellite</h3>
-						<p class="platform">Unity 3D</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>A solo project that is specialed on mathematics and physics in C#, a Formative assignment for SAE, will also be realesed on iOS appstore.</p>
+						<h3>Fake World</h3>
+						<p class="platform">Unity 2D</p>
+						<p class="icons"><i class="fi-monitor"></i></p>
+						<p>This is my very first game in Unity, it is a 2D platformer with some unique puzzle elements; you cant trust anything like the name says:D.</p>
 					</div>
 				</div>
 			</div>
+
 
 
 
