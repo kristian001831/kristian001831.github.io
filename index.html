@@ -24,6 +24,19 @@
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="assets/styles/styles.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+
+	<script>
+		(function () {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = 'https://app.termly.io/embed.min.js';
+			s.id = '6d789af2-9cea-4995-b3ad-177ab0124b6e';
+			s.setAttribute("data-name", "termly-embed-banner");
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		})();
+	</script>
 </head>
 
 <body>
@@ -263,6 +276,7 @@
 					<p id="copyright">Copyright &copy; 2020 | Kristian Kovac</p>
 					<a href="impressum.html"><i class="fa fa-impressum fa-2x"></i>Impressum</a>
 					<a href="privacypolicy.html"><i class="fa fa-impressum fa-2x"></i>Privacy Policy</a>
+					<a href="cookipolicy.html"><i class="fa fa-impressum fa-2x"></i>Coockie Policy</a>
 					<a href="https://simpleanalytics.com/kristiankovac.me?utm_source=kristiankovac.me&utm_content=badge" referrerpolicy="origin" target="_blank">
 						<img src="https://simpleanalyticsbadge.com/kristiankovac.me?mode=dark" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous" /></a>
 				</div>
@@ -276,6 +290,7 @@
 
 	<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+	<button allow-preference-non-eu="true" class="termly-cookie-preference-button" type="button" style="background: white; width: 165px; height: 30px; border-radius: 3px; border: 1px solid #5f7d9c; font-family: Roboto, Arial; font-size: 10px; color: #5f7d9c; font-weight: 600; box-sizing: border-box; cursor: pointer; padding: 0; outline: none;" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
 </body>
 
 </html>
