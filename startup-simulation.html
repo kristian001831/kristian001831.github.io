@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--Hi-->
     <script>
         (function () {
@@ -45,31 +47,7 @@
 
     <section id="about">
 
-        <!--Nav bar-->
-        <div class="luxbar luxbar-static">
-            <input type="checkbox" id="luxbar-checkbox" class="luxbar-checkbox">
-            <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
-                <ul class="luxbar-navigation">
-                    <li class="luxbar-header">
-                        <a class="luxbar-brand" href="#">Startup Simulation</a>
-                        <label class="luxbar-hamburger luxbar-hamburger-doublespin"
-                               for="luxbar-checkbox"> <span></span> </label>
-                    </li>
-                    <li class="luxbar-item active"><a href="index.html">Home</a></li>
-                    <li class="luxbar-item" ><a href="CV.html"><b>CV</b></a></li>
-                    <li class="luxbar-item" ><a href="startup-simulation.html"><b>Startup Simulation</b></a></li>
-                    <!-- <li class="luxbar-item" ><a href="forgottenheroes_privacypolicy.html">
-                         <b>Forgotten Heroes Privacy Policy</b></a></li>
-                     <li class="luxbar-item" ><a href="fallingDeath_privacypolicy.html"><b>Catch Privacy Policy</b></a></li>-->
-                    <!--<li class="luxbar-item dropdown"><a href="#">Sites</a>
-                        <ul>
-                            <li class="luxbar-item" ><a href="CV.html"><b>CV</b></a></li>
-                            <li class="luxbar-item" ><a href="forgottenheroes_privacypolicy.html"><b>Forgotten Heroes Privacy Policy</b></a></li>
-                        </ul>
-                    </li>-->
-                </ul>
-            </div>
-        </div>
+
     </section>
 
     <section >
@@ -118,5 +96,11 @@
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
 <button allow-preference-non-eu="true" class="termly-cookie-preference-button" type="button" style="background: white; width: 165px; height: 30px; border-radius: 3px; border: 1px solid #5f7d9c; font-family: Roboto, Arial; font-size: 10px; color: #5f7d9c; font-weight: 600; box-sizing: border-box; cursor: pointer; padding: 0; outline: none;" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
 </body>
-
+<div id="nav">
+    <script>
+        $(function(){
+            $("#nav").load("nav.html");
+        });
+    </script>
+</div>
 </html>
